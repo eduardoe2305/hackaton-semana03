@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Mi primer Formulario</title>
+</head>
+<body>
+    <h1>Formulario de Inscripción al curso de Front-End</h1>
+    <form action="#">
+        <div>
+            <label for="nombre">Ingresa tu nombre:</label>
+            <div class="input">
+                <input type="text" id="nombre" name="nombre">
+            </div>            
+        </div>
+        <div>
+            <label for="apellido">Ingresa tu apellido:</label>
+            <div class="input">
+                <input type="text" id="apellido" name="apellido">
+            </div>            
+        </div>
+        <div>
+            <label for="dni">Ingresa tu DNI:</label>
+            <div class="input">
+                <input type="number" id="dni" name="dni">
+            </div>
+        </div>
+        <div>
+            <label for="sede">Sede:</label>
+            <div class="input">
+                <select name="sede" id="sede">
+                    <option value="0">--Seleccione una Sede--</option>
+                    <option value="Lima Centro">Lima Centro</option>
+                    <option value="Ventanilla">Ventanilla</option>
+                    <option value="Callao">Callao</option>
+                </select>
+            </div>            
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
