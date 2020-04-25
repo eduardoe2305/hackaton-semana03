@@ -1,0 +1,29 @@
+body {
+    background: #1687A0;
+    padding: 80px;
+}
+h1 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    text-align: center;
+}
+.formulario {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.formulario input {
+    padding: 15px;
+    width: 300px;
+    margin: 0px 20px 20px 0;
+}
+.formulario textarea {
+    width: 660px;
+    margin: 0 0 0 -18px;
+    padding: 15px;
+}
