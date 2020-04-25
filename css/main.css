@@ -8,3 +8,17 @@ body {
 button {
     margin-top: 10px;
 }
+input {
+    padding: 5px 20px;
+    border: 1px solid #a5a1a1;
+    border-radius: 0px 10px 0 10px;
+}
+input:focus {
+    border: 2px solid blue;
+}
+input:focus:valid {
+    border: 2px solid green;
+}
+input:focus:invalid {
+    border: 2px solid red;
+}

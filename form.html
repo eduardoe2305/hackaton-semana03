@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Mi primer Formulario</title>
+</head>
+<body>
+    <h1>Formulario de Inscripción - Segundo Reto</h1>
+    <form action="#">
+        <div>
+            <label for="nombre">Nombre:</label>
+            <div class="input">
+                <input type="text" id="nombre" name="nombre" pattern="[A-Za-z]+">
+            </div>            
+        </div>
+        <div>
+            <label for="apellido">Apellido:</label>
+            <div class="input">
+                <input type="text" id="apellido" name="apellido" pattern="[A-Za-z]+">
+            </div>            
+        </div>
+        <div>
+            <label for="edad">Edad:</label>
+            <div class="input">
+                <input type="number" id="edad" id="edad" min="18" max="80">
+            </div>
+        </div>
+        <div>
+            <label for="sexo">Sexo:</label>
+            <div class="input">
+                <select name="sexo" id="sexo">
+                    <option value="0">--- Selecciones su Sexo ---</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <label for="dni">DNI:</label>
+            <div class="input">
+                <input type="text" id="dni" name="dni" maxlength="8" pattern="[A-Za-z0-9]+">
+            </div>
+        </div>
+        <div>
+            <label for="sede">Email:</label>
+            <div class="input">
+                <input type="email" name="email" id="email">
+            </div>            
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
